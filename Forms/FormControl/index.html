@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Form Control</title>
+</head>
+<body>
+  <h1>Form Control</h1>
+  <p>Login</p>
+  <form id="loginForm">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" value="JohnDoe"><br><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" na="password" value="password"><br><br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <hr>
+  <p>Select an operating system</p>
+  <form id="OS">
+    <input type="radio" id="windows" name="opsys" value="Windows">
+    <label for="windows">Windows</label><br>
+    <input type="radio" id="apple" name="opsys" value="Apple">
+    <label for="apple">Apple iOS</label><br>
+    <input type="radio" id="linux" name="opsys" value="Linux">
+    <label for="linux">Linux</label><br><br>
+    <input type="submit">
+    <input type="reset">
+  </form>
+  <hr>
+  <p>Select a vehicle</p>
+  <form id="vehicles">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br><br>
+    <input type="submit">
+  </form>
+  <hr>
+  <div id="colorMe">
+    <input type="button" onclick="buttonResponse();" value="Click Me!">
+    <span id="buttonOutput"></span>
+  </div>
+  <hr>
+  <form id="setColor">
+    <label for="favcolor">Select your favorite color: </label>
+    <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    <input type="submit">
+  </form>
+  <hr>
+  <form id="dob">
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday" value="1970-01-01">
+    <input type="submit">
+  </form>
+  <hr>
+  <script src="script.js"></script>
+  <p id="output1"></p>
+  <p id="output2"></p>
+</body>
+</html>
