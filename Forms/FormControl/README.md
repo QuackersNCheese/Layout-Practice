@@ -23,3 +23,6 @@ It's going to take a lot longer to finish up these W3schools HTML sections, but 
 - button
 - color selector
 - date
+
+## Site View
+![latest app view](./2025-03-17_16-01-46.jpg)
