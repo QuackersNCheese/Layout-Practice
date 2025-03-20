@@ -9,6 +9,8 @@ in order to prepare for the transition to frameworks.
 ![main page](./images/SimpleGridLayout1.jpg)
 ## Semantic-Grid-Layout-1
 ![main page](./images/SemanticGridLayout1.jpg)
+## Semantic-Grid-Layout-2
+![main page](./Semantic-Grid-Layout-2/SemanticGridLayout2.jpg)
 ## W3SchoolsLayout
 ![main page](./images/W3SchoolsLayout.jpg)
 ## Forms
