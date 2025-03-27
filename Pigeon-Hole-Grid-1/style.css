@@ -1,0 +1,73 @@
+body {
+    background-color: #222;
+    color: #ddd;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr 300px 1fr / repeat(1fr, 4);
+    grid-gap: 5px;
+}
+header {
+    grid-area: 1 / 1 / 2 / 5;
+    background-color: forestgreen;
+    border-radius: 5px;
+    border: 3px solid dodgerblue;
+}
+
+section {
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 3px solid dodgerblue;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+article {
+    grid-area: 5 / 1 / 6 / 5;
+    background-color: goldenrod;
+    border-radius: 5px;
+    border: 3px solid dodgerblue;
+}
+footer {
+    grid-area: 6 / 1 / 7 / 5;
+    background-color: fuchsia;
+    border-radius: 5px;
+    border: 3px solid dodgerblue;
+}
+#A {
+    grid-area: 2 / 1 / 3 / 2;
+}
+#B {
+    grid-area: 2 / 2 / 3 / 3;
+}
+#C {
+    grid-area: 2 / 3 / 3 / 4;
+}
+#D {
+    grid-area: 2 / 4 / 3 / 5;
+}
+#E {
+    grid-area: 3 / 1 / 4 / 2;
+}
+#F {
+    grid-area: 3 / 2 / 4 / 3;
+}
+#G {
+    grid-area: 3 / 3 / 4 / 4;
+}
+#H {
+    grid-area: 3 / 4 / 4 / 5;
+}
+#I {
+    grid-area: 4 / 1 / 5 / 2;
+}
+#J {
+    grid-area: 4 / 2 / 5 / 3;
+}
+#K {
+    grid-area: 4 / 3 / 5 / 4;
+}
+#L {
+    grid-area: 4 / 4 / 5 / 5;
+}
